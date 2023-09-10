@@ -1,3 +1,4 @@
 {
-  "builds": [{ "src": "bot-tele.py", "use": "@vercel/python" }]
+  "builds": [{ "src": "bot-tele.py", "use": "@vercel/python" }],
+  "routes": [{ "src": "/.*", "dest": "bot-tele.py" }]
 }
